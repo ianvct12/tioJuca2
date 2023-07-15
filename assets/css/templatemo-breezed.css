@@ -120,12 +120,12 @@ body {
 }
 
 ::selection {
-  background: #5fb759;
+  background: #d90000;
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #5fb759;
+  background: #d90000;
   color: #fff;
 }
 
@@ -179,7 +179,7 @@ a.main-stroked2-button {
 
 a.main-stroked2-button:hover {
   background-color: #fff;
-  color: #5fb759;
+  color: #d90000;
 }
 
 
@@ -187,7 +187,7 @@ a.main-stroked2-button:hover {
 
 a.main-stroked-button:hover {
   background-color: #fff;
-  color: #5fb759;
+  color: #d90000;
 }
 
 a.main-filled-button {
@@ -196,7 +196,7 @@ a.main-filled-button {
   padding: 13px 25px;
   background-color: #fff;
   text-transform: uppercase;
-  color: #5fb759;
+  color: #d90000;
   font-weight: 600;
   letter-spacing: 1px;
   -webkit-transition: all 0.3s ease 0s;
@@ -207,14 +207,14 @@ a.main-filled-button {
 
 a.main-filled-button:hover {
   color: #fff;
-  background-color: #5fb759;
+  background-color: #d90000;
 }
 
 a.main-button-icon {
   font-size: 13px;
   border-radius: 25px;
   padding: 13px 25px;
-  background-color: #5fb759;
+  background-color: #d90000;
   text-transform: uppercase;
   color: #fff;
   font-weight: 600;
@@ -246,7 +246,7 @@ button.main-button {
   padding: 10px 25px;
   background-color: #fff;
   text-transform: uppercase;
-  color: #5fb759;
+  color: #d90000;
   font-weight: 600;
   letter-spacing: 1px;
   -webkit-transition: all 0.3s ease 0s;
@@ -257,7 +257,7 @@ button.main-button {
 
 button.main-button:hover {
   color: #fff;
-  background-color: #5fb759;
+  background-color: #d90000;
 }
 
 button.main-button-icon {
@@ -266,7 +266,7 @@ button.main-button-icon {
   font-size: 13px;
   border-radius: 25px;
   padding: 13px 25px;
-  background-color: #5fb759;
+  background-color: #d90000;
   text-transform: uppercase;
   color: #fff;
   font-weight: 600;
@@ -310,7 +310,7 @@ a.text-button-icon i {
 }
 
 a.text-button-icon:hover {
-  color: #5fb759;
+  color: #d90000;
 }
 
 a.text-button-icon:hover i {
@@ -329,7 +329,7 @@ a.text-button-icon:hover i {
 
 h3{
   text-align:center;
-  color:#5fb759;
+  color:#d90000;
 }
 
 .section-heading h3 {
@@ -372,11 +372,11 @@ header
 }
 
 .background-header .main-nav .nav li:hover a {
-  color: #5fb759!important;
+  color: #d90000!important;
 }
 
 .background-header .nav li a.active {
-  color: #5fb759!important;
+  color: #d90000!important;
 }
 
 .header-area {
@@ -437,7 +437,7 @@ header
 
 .header-area .main-nav .nav .search-icon a {
   background-color: #fff;
-  color: #5fb759;
+  color: #d90000;
   width: 40px;
   height: 40px;
   display: inline-block;
@@ -457,7 +457,7 @@ header
 
 .header-area .main-nav .nav .search-icon a:hover {
   opacity: 1;
-  color: #5fb759!important;
+  color: #d90000!important;
 }
 
 .header-area .main-nav .nav li a {
@@ -488,7 +488,7 @@ header
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #5fb759!important;
+  color: #d90000!important;
   opacity: 1;
 }
 
@@ -549,7 +549,7 @@ header
 
 .header-area .main-nav .nav li.submenu ul li a:hover {
   background: #fff;
-  color: #5fb759!important;
+  color: #d90000!important;
   padding-left: 25px;
 }
 
@@ -694,7 +694,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #5fb759;
+  color: #d90000;
 
 }
 
@@ -778,7 +778,7 @@ header
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #5fb759!important;
+    color: #d90000!important;
   }
   .header-area .main-nav .nav li.submenu ul {
     position: relative;
@@ -932,7 +932,7 @@ banner
 
 .scroll-down a {
   display: inline-block;
-  background-color: #5fb759;
+  background-color: #d90000;
   width: 60px;
   height: 60px;
   text-align: center;
@@ -1284,7 +1284,7 @@ about
 }
 
 #about .section-heading h6 {
-  color: #5fb759;
+  color: #d90000;
   text-align: center;
 }
 
@@ -1317,7 +1317,9 @@ width: 46px;
   font-size:50px;
 }
 
-
+#aumento2{
+  font-size:24px;
+}
 
 
 
@@ -1359,7 +1361,7 @@ width: 46px;
 }
 
 #about .section-heading h6 {
-  color: #5fb759;
+  color: #d90000;
   text-align: center;
 }
 /*
@@ -1546,7 +1548,7 @@ testimonials
   font-size: 50px;
   background-color: #fff;
   border-radius: 50%;
-  color: #5fb759;
+  color: #d90000;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -1556,7 +1558,7 @@ testimonials
 
 #testimonials .item .hover-effect ul li a:hover {
   color: #fff;
-  background-color: #5fb759;
+  background-color: #d90000;
 }
 
 #testimonials .owl-carousel {
@@ -1610,7 +1612,7 @@ contact
 }
 
 #contact-us .section-heading h6 {
-  color: #5fb759;
+  color: #d90000;
 }
 
 #contact-us .left-text-content ul li {
@@ -1640,7 +1642,7 @@ contact
 
 .contact-form input,
 .contact-form textarea {
-  color: #5fb759;
+  color: #d90000;
   font-size: 15px;
   border: 1px solid #ddd;
   background-color: #fff;
@@ -1664,17 +1666,17 @@ contact
 }
 
 .contact-form ::-webkit-input-placeholder { /* Edge */
-  color: #5fb759;
+  color: #d90000;
   font-size:20px;
 }
 
 .contact-form :-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: #5fb759;
+  color: #d90000;
   font-size:20px;
 }
 
 .contact-form ::placeholder {
-  color: #5fb759;
+  color: #d90000;
   font-size:20px;
 }
 
@@ -1735,7 +1737,7 @@ footer .right-text-content ul li a {
 }
 
 footer .right-text-content ul li a:hover {
-  background-color: #040489;
+  background-color: #d90000;
   color: #fff;
 }
 
@@ -1895,7 +1897,7 @@ search
   left: 50%;
   margin-top: 61px;
   margin-left: -45px;
-  background-color: #5fb759;
+  background-color: #d90000;
   border: black;
 }
 #search .close {
@@ -1904,7 +1906,7 @@ search
   top: 15px;
   right: 15px;
   color: #fff;
-  background-color: #5fb759;
+  background-color: #d90000;
   outline: none;
   opacity: 1;
   display: inline-block;
@@ -1956,7 +1958,7 @@ portfolio
 }
 #projects .filters ul li.active,
 #projects .filters ul li:hover {
-  color: #5fb759;
+  color: #d90000;
 }
 #projects .filters-content {
   margin-top: 50px;
@@ -2011,7 +2013,7 @@ portfolio
 }
 
 #projects .section-heading h6 {
-  color: #5fb759;
+  color: #d90000;
 }
 
 
