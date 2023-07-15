@@ -327,6 +327,20 @@ a.text-button-icon:hover i {
   margin-bottom: 0px;
 }
 
+h3{
+  text-align:center;
+  color:#5fb759;
+}
+
+.section-heading h3 {
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.25px;
+  margin-top: 195px;
+  margin-bottom: 0px;
+}
+
 .section-heading h2 {
   font-size: 32px;
   font-weight: 800;
@@ -612,6 +626,7 @@ header
 
 .header-area .main-nav .menu-trigger span {
   top: 16px;
+
 }
 
 .header-area .main-nav .menu-trigger span:before {
@@ -644,10 +659,12 @@ header
   -webkit-transform: translateY(6px) translateX(1px) rotate(45deg);
   transform: translateY(6px) translateX(1px) rotate(45deg);
   background-color: #1e1e1e;
+
 }
 
 .background-header .main-nav .menu-trigger.active span:before {
   background-color: #1e1e1e;
+
 }
 
 .header-area .main-nav .menu-trigger.active span:after {
@@ -656,24 +673,29 @@ header
   -webkit-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   transform: translateY(-6px) translateX(1px) rotate(-45deg);
   background-color: #1e1e1e;
+
 }
 
 .background-header .main-nav .menu-trigger.active span:after {
   background-color: #1e1e1e;
+
 }
 
 .header-area.header-sticky {
   min-height: 80px;
-  background:linear-gradient(145deg, rgba(51,155,158,1) 0%, rgb(9, 71, 138) 100%);
+  background:linear-gradient(145deg, rgb(255, 255, 255) 0%, rgb(20, 111, 209) 70%);
+
   opacity: 0.91;
 }
 
 .header-area.header-sticky .nav {
   margin-top: 20px !important;
+
 }
 
 .header-area.header-sticky .nav li a.active {
   color: #5fb759;
+
 }
 
 @media (max-width: 1200px) {
@@ -692,21 +714,26 @@ header
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #5fb759!important;
+    color:white;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
     width: 100%;
+
   }
+
+ 
   .header-area {
     background-color: #f7f7f7;
     padding: 0px 15px;
     height: 80px;
     box-shadow: none;
     text-align: center;
+    color:white;
   }
   .header-area .container {
     padding: 0px;
+  
   }
   .header-area .logo {
     margin-left: 30px;
@@ -740,6 +767,7 @@ header
     padding-left: 0px !important;
     padding-right: 0px !important;
   }
+  
   .header-area .main-nav .nav li a {
     height: 50px !important;
     line-height: 50px !important;
@@ -1264,12 +1292,13 @@ about
   margin-top: 30px;
   border:2px rgb(0, 0, 0) solid;
   border-radius:10px;
+
 }
 
 #about .service-item img {
- 
-  width: 46px;
 margin-left:100px;
+width: 46px;
+
 }
 
 #about .service-item h4 {
@@ -1280,6 +1309,8 @@ margin-left:100px;
   line-height: 46px;
   text-align:center;
   color:#21106f;
+  padding-left:10px;
+  padding-right:5px;
 }
 
 #aumento{
@@ -1520,6 +1551,7 @@ testimonials
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  font-size:40px;
 }
 
 #testimonials .item .hover-effect ul li a:hover {
@@ -1608,7 +1640,7 @@ contact
 
 .contact-form input,
 .contact-form textarea {
-  color: #7a7a7a;
+  color: #5fb759;
   font-size: 15px;
   border: 1px solid #ddd;
   background-color: #fff;
@@ -1622,6 +1654,7 @@ contact
   -moz-appearance: none;
   appearance: none;
   margin-bottom: 30px;
+  font-size:20px;
 }
 
 .contact-form textarea {
@@ -1631,15 +1664,18 @@ contact
 }
 
 .contact-form ::-webkit-input-placeholder { /* Edge */
-  color: #7a7a7a;
+  color: #5fb759;
+  font-size:20px;
 }
 
 .contact-form :-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: #7a7a7a;
+  color: #5fb759;
+  font-size:20px;
 }
 
 .contact-form ::placeholder {
-  color: #7a7a7a;
+  color: #5fb759;
+  font-size:20px;
 }
 
 
@@ -1655,7 +1691,7 @@ footer
 footer {
   padding: 80px 0px;
   background: rgb(51,155,158);
-  background: linear-gradient(145deg, rgba(51,155,158,1) 0%, rgb(9, 71, 138) 100%);
+  background: linear-gradient(145deg, rgb(50, 132, 141) 0%, rgb(9, 71, 138) 100%);
 }
 
 footer .left-text-content p {
@@ -1691,7 +1727,7 @@ footer .right-text-content ul li a {
   font-size: 14px;
   background-color: #fff;
   border-radius: 50%;
-  color: #5fb759;
+  color: #000000;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -1699,7 +1735,7 @@ footer .right-text-content ul li a {
 }
 
 footer .right-text-content ul li a:hover {
-  background-color: #5fb759;
+  background-color: #040489;
   color: #fff;
 }
 
@@ -1723,7 +1759,7 @@ preloader
 */
 #preloader {
   overflow: hidden;
-  background-image: linear-gradient(145deg, #339b9e 0%, #68cc98 100%);
+  background-image: linear-gradient(145deg, #0837ad 0%, #68cc98 100%);
   left: 0;
   right: 0;
   top: 0;
